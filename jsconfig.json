@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@partials/*": [
+        "./src/partials"
+      ],
+      "@pages/*": [
+        "./src/components/pages"
+      ],
+      "@common/*": [
+        "./src/components/common"
+      ],
+      "@helpers": [
+        "./src/components/helpers"
+      ],
+      "@store": [
+        "./src/store/actions"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
